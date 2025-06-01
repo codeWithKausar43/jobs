@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import Footer from "../components/Footer";
 
 const MainLayout = () => {
   return (
@@ -84,7 +85,7 @@ const MainLayout = () => {
       <div className="min-h-screen max-w-7xl mx-auto mt-6" >
         <Outlet></Outlet>
       </div>
-      <div>footer</div>
+      <Footer></Footer>
     </div>
   );
 };
